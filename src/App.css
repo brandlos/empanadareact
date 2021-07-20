@@ -19,17 +19,30 @@ html {
 
 .Landing-screen {
   background-color: #95afa7;
+  display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
   color: white;
-  height: 80vh;
+  height: 40vh;
+}
+
+.Content {
+  background-color: #699185;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
 }
 
 .App-footer {
   background-color: #49796b;
   display: flex;
   flex-direction: column;
-  align-items: stretch;
-  justify-content: flex-end;
+  align-items: center;
+  justify-content: center;
   color: white;
-  height: 10vh;
+  height: 20vh;
 }
